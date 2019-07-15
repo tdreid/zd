@@ -1,0 +1,22 @@
+{
+  "name": "zd_new_package_name",
+  "version": "0.1.0",
+  "description": "ZD_NEW_PACKAGE_DESCRIPTION",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/main.js -t [babelify --presets [ @babel/preset-env minify ] ] -o ext/main.min.js",
+    "build-debug": "browserify src/main.js -t [babelify --presets [ @babel/preset-env ] ] -o ext/main.min.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-preset-minify": "^0.5.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "lodash": ">=4.17.13"
+  },
+  "dependencies": {}
+}
