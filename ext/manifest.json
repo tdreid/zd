@@ -1,0 +1,16 @@
+{
+  "name": "ZD_NEW_NAME",
+  "description" : "ZD_NEW_DESCRIPTION",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "background": {
+      "persistent": false,
+      "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "ZD_NEW_DEFAULT_TITLE"
+  },
+  "permissions": [
+    "storage"
+  ]   
+}
