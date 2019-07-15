@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZD_NEW_PAGE_TITLE</title>
+        <style>
+            @import url('./css/bootstrap.min.css');
+            @import url('./css/main.css');          
+        </style>
+    </head>
+    <body>
+        <main class="container" id="main">
+            <div data-bind="text: 'Hello, ZD!'"></div>
+            <div>
+                <h5>Loaded from storage:</h5>
+                <pre data-bind="text:status">Bindings not applied.</pre>
+            </div>            
+        </main>
+        <script src="./js/knockout-3.5.0.js"></script>
+        <script src="./js/knockout-secure-binding.min.js"></script>
+        <script src="main.min.js"></script>
+    </body>
+</html>
