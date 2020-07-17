@@ -16,7 +16,7 @@
     "babel-preset-minify": "^0.5.0",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
-    "lodash": ">=4.17.13"
+    "lodash": ">=4.17.19"
   },
   "dependencies": {}
 }
